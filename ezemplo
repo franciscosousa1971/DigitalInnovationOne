@@ -1,0 +1,20 @@
+//Defining a Student class.  
+class Person {   
+    //defining fields    
+    id: number;  
+    name:string; 
+	age:number;
+}   
+  
+//Creating an object or instance     
+let obj = new Person();  
+  
+// Initializing an object  
+obj.id = 101;  
+obj.name = "Francisco Sousa";  
+obj.age = 50;
+  
+//access the field   
+console.log("ID: " +obj.id,);  
+console.log("Name: " +obj.name);
+console.log("Age: " +obj.age);
